@@ -1,6 +1,6 @@
 {
   "name": "leon-alilc-cool-card",
-  "version": "0.1.0",
+  "version": "0.2.8",
   "description": "for tutorial",
   "files": [
     "demo/",
@@ -18,13 +18,14 @@
     "lowcode:dev": "build-scripts start --config ./build.lowcode.js",
     "lowcode:build": "build-scripts build --config ./build.lowcode.js",
     "test": "build-scripts test",
-    "prepublishOnly": "npm run build && npm run lowcode:build",
+    "prepublishOnly": "gulp upgradePackageVersion && npm run build && npm run lowcode:build && npm run copy2demo",
     "eslint": "eslint --cache --ext .js,.jsx ./",
     "eslint:fix": "npm run eslint -- --fix",
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "lint": "npm run eslint && npm run stylelint",
     "f2elint-scan": "f2elint scan",
-    "f2elint-fix": "f2elint fix"
+    "f2elint-fix": "f2elint fix",
+    "copy2demo": "gulp copyToDemo"
   },
   "keywords": [
     "ice",
@@ -45,7 +46,8 @@
     "build-plugin-component": "^1.0.0",
     "template-component-demo": "^2.0.3",
     "build-plugin-moment-locales": "^0.1.0",
-    "f2elint": "^1.2.0"
+    "f2elint": "^1.2.0",
+    "gulp": "^4.0.2"
   },
   "peerDependencies": {
     "moment": "latest",
@@ -58,8 +60,9 @@
   "componentConfig": {
     "name": "ExampleComponent",
     "title": "demo component",
-    "category": "Information"
+    "category": "Information",
+    "materialSchema": "https://unpkg.com/leon-alilc-cool-card@0.2.8/build/lowcode/assets-prod.json"
   },
-  
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://unpkg.com/leon-alilc-cool-card@0.2.8/build/index.html"
 }

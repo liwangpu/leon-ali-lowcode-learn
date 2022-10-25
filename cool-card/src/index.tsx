@@ -12,7 +12,7 @@ const ExampleComponent = (props: ComponentProps, ref: any) => {
   return (
     <div ref={ref} className="ExampleComponent" {...others}>
       <h1>{title}</h1>
-      {content || 'Hello ExampleComponent'}
+      {content || '一个很酷的卡片组件'}
     </div>
   );
 };
