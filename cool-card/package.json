@@ -1,6 +1,6 @@
 {
   "name": "leon-alilc-cool-card",
-  "version": "0.2.8",
+  "version": "0.2.12",
   "description": "for tutorial",
   "files": [
     "demo/",
@@ -34,20 +34,22 @@
   ],
   "dependencies": {
     "@alifd/next": "^1.25.27",
+    "moment": "^2.29.4",
     "react": "^16.x",
     "react-dom": "^16.x"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.3",
     "@alifd/build-plugin-lowcode": "^0.3.0",
+    "@alilc/build-plugin-alt": "^1.2.2",
     "@types/react": "^16.9.13",
     "@types/react-dom": "^16.9.4",
-    "build-plugin-fusion": "^0.1.0",
     "build-plugin-component": "^1.0.0",
-    "template-component-demo": "^2.0.3",
+    "build-plugin-fusion": "^0.1.0",
     "build-plugin-moment-locales": "^0.1.0",
     "f2elint": "^1.2.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "template-component-demo": "^2.0.3"
   },
   "peerDependencies": {
     "moment": "latest",
@@ -61,8 +63,8 @@
     "name": "ExampleComponent",
     "title": "demo component",
     "category": "Information",
-    "materialSchema": "https://unpkg.com/leon-alilc-cool-card@0.2.8/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/leon-alilc-cool-card@0.2.12/build/lowcode/assets-prod.json"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/leon-alilc-cool-card@0.2.8/build/index.html"
+  "homepage": "https://unpkg.com/leon-alilc-cool-card@0.2.12/build/index.html"
 }

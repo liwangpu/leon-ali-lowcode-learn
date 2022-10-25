@@ -11,6 +11,9 @@
 
 [认识Demo](https://www.yuque.com/lce/doc/lhggxn#AJz92)
 
+[从lowcode-demo源码开始、上手低代码引擎扩展](https://www.yuque.com/lce/xhk5hf/dhwqp1)
+
+
 **启动与调试** ( 终端进入lowcode-demo再执行命令 )
 
 - 启动
@@ -62,4 +65,4 @@ npm run copy2demo
 
 **相关文档**
 
-[开发一个自定义的物料组件](https://www.yuque.com/lce/doc/lhggxn#lpmpl)
+[测试](./lowcode-engine/abc.json)
