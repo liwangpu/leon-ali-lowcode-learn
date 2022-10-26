@@ -1,0 +1,23 @@
+{
+  "name": "leon-ali-lowcode-learn",
+  "version": "1.0.0",
+  "description": "**学习目录介绍** - lowcode-demo 低代码平台的设计器 - lowcode-engine 低代码引擎 - cool-card 自定义的一个物料组件",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "app": "cd lowcode-app && yarn run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwangpu/leon-ali-lowcode-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwangpu/leon-ali-lowcode-learn/issues"
+  },
+  "homepage": "https://github.com/liwangpu/leon-ali-lowcode-learn#readme"
+}

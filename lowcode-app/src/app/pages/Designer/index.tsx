@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import { faker } from '@faker-js/faker';
 import './index.scss';
-import { project, plugins, common, skeleton, init, config, ILowCodePluginContext } from '@alilc/lowcode-engine';
+import { project, plugins, common, skeleton, init, config, ILowCodePluginContext, material } from '@alilc/lowcode-engine';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler';
 import AliLowCodeEngineExt from '@alilc/lowcode-engine-ext';
 import { Button } from '@alifd/next';
@@ -41,6 +41,8 @@ const Designer: React.FC = memo(() => {
     //     fetch: createFetchHandler()
     //   }
     // });
+    // 静态加载 assets
+    material.setAssets(assets as any)
     await registerPlugins();
     plugins.init().then(() => {
       setHasPluginInited(true);
