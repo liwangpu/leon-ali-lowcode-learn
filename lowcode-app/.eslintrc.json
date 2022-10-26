@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": [
+    "*.scss",
+    "*.tsx",
+    "*.ts"
+  ]
+}
