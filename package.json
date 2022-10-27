@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "app": "cd lowcode-app && yarn run start"
+    "app": "cd lowcode-app && yarn run start",
+    "demo": "cd lowcode-demo && yarn run start"
   },
   "repository": {
     "type": "git",

@@ -2,6 +2,7 @@ import { material, project } from '@alilc/lowcode-engine';
 import { filterPackages } from '@alilc/lowcode-plugin-inject'
 import { Message, Dialog } from '@alifd/next';
 import { TransformStage } from '@alilc/lowcode-types';
+import axios from 'axios';
 
 export const loadIncrementalAssets = () => {
   material?.onChangeAssets(() => {
@@ -182,7 +183,7 @@ export const resetSchema = async (scenarioName: string = 'index') => {
         },
       })
     })
-  } catch(err) {
+  } catch (err) {
     return
   }
 
@@ -206,7 +207,7 @@ export const resetSchema = async (scenarioName: string = 'index') => {
   let schema;
   try {
     schema = await request('./schema.json')
-  } catch(err) {
+  } catch (err) {
     schema = {
       componentName: 'Page',
       fileName: 'sample',
@@ -270,13 +271,15 @@ export const getPackagesFromLocalStorage = (scenarioName: string) => {
 }
 
 export const getPageSchema = async (scenarioName: string = 'index') => {
-  const pageSchema = getProjectSchemaFromLocalStorage(scenarioName).componentsTree?.[0]
+  // const pageSchema = getProjectSchemaFromLocalStorage(scenarioName).componentsTree?.[0]
 
-  if (pageSchema) {
-    return pageSchema;
-  }
+  // if (pageSchema) {
+  //   return pageSchema;
+  // }
 
-  return await request('./schema.json');
+  // return await request('schema.json');
+  const res= await axios.get('/schema.json');
+  return res.data;
 };
 
 function request(

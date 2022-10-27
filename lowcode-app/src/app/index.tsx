@@ -2,6 +2,8 @@ import './index.scss';
 import { NavLink, Outlet } from "react-router-dom";
 import { memo } from 'react';
 import { FileOutlined } from '@ant-design/icons';
+import { registerPlugins } from './pages/Designer/plugin';
+import { plugins } from '@alilc/lowcode-engine';
 
 const routes: { title: string; path: string }[] = [
   {
@@ -13,6 +15,11 @@ const routes: { title: string; path: string }[] = [
     path: '/app/renderer',
   }
 ];
+
+// (async () => {
+//   await registerPlugins();
+//   await plugins.init();
+// })()
 
 const RouterLinks = routes.map(r => (
   <NavLink key={r.title} to={r.path} className={({ isActive }) => isActive ? "item actived" : "item"}>

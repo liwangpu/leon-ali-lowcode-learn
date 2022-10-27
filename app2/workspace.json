@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "demo": "apps/demo",
+    "designer": "libs/designer",
+    "editor-core": "libs/editor-core",
+    "editor-skeleton": "libs/editor-skeleton",
+    "engine": "libs/engine",
+    "ignitor": "libs/ignitor",
+    "plugin-designer": "libs/plugin-designer",
+    "plugin-outline-pane": "libs/plugin-outline-pane",
+    "rax-renderer": "libs/rax-renderer",
+    "rax-simulator-renderer": "libs/rax-simulator-renderer",
+    "react-renderer": "libs/react-renderer",
+    "react-simulator-renderer": "libs/react-simulator-renderer",
+    "renderer-core": "libs/renderer-core",
+    "shell": "libs/shell",
+    "types": "libs/types",
+    "utils": "libs/utils"
+  }
+}
