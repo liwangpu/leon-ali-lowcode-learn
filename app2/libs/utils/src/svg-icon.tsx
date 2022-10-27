@@ -1,7 +1,7 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactNode } from 'react';
 
-const SizePresets: any = {
+const SizePresets = {
   xsmall: 8,
   small: 12,
   medium: 16,

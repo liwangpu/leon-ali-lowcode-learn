@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // 仅使用类型
 import { Node } from '@alilc/lowcode-designer';
 

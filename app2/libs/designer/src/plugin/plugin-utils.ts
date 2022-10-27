@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import type { ILowCodePluginPreferenceDeclaration } from './plugin-types';
 import { isPlainObject } from 'lodash';
 

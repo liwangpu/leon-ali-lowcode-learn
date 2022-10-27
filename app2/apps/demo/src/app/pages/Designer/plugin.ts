@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { project, plugins, common, skeleton, init, config, ILowCodePluginContext, material } from '@alilc/lowcode-engine';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler';
 import AliLowCodeEngineExt from '@alilc/lowcode-engine-ext';

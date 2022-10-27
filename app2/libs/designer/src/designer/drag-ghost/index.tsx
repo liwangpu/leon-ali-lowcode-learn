@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component, ReactElement } from 'react';
 import { observer, obx, Title, makeObservable } from '@alilc/lowcode-editor-core';
 import { Designer } from '../designer';

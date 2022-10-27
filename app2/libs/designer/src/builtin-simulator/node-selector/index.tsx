@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Overlay } from '@alifd/next';
 import React from 'react';
 import { Title, globalContext, Editor } from '@alilc/lowcode-editor-core';

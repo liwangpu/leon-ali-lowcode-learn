@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { BuiltinSimulatorRenderer, Component, DocumentModel, Node, NodeInstance } from '@alilc/lowcode-designer';
 import { ComponentSchema, NodeSchema, NpmInfo, RootSchema, TransformStage } from '@alilc/lowcode-types';
 import { Asset, compatibleLegaoSchema, cursor, isElement, isESModule, isPlainObject, isReactComponent, setNativeSelection } from '@alilc/lowcode-utils';

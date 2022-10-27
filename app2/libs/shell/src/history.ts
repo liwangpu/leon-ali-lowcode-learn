@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { History as InnerHistory, DocumentModel as InnerDocumentModel } from '@alilc/lowcode-designer';
 import { historySymbol } from './symbols';
 

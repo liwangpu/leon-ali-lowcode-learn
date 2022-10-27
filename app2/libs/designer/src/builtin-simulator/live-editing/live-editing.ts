@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { obx, globalContext, Editor } from '@alilc/lowcode-editor-core';
 import { LiveTextEditingConfig } from '@alilc/lowcode-types';
 import { Node, Prop } from '../../document';

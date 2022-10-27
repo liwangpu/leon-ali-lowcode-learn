@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export * as Prop from './prop';
 
 export interface RerenderOptions {

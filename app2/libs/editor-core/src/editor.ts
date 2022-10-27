@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { StrictEventEmitter } from 'strict-event-emitter-types';
 import { EventEmitter } from 'events';
 import {

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { EditingTarget, Node as DocNode, SaveHandler, LiveEditing } from '@alilc/lowcode-designer';
 import { isJSExpression } from '@alilc/lowcode-types';
 

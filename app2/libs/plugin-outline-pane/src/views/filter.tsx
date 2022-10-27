@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { Component } from 'react';
 import './style.less';
 import { IconFilter } from '../icons/filter';

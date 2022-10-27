@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { TransformedComponentMetadata, FieldConfig, SettingTarget } from '@alilc/lowcode-types';
 import { IconSlot } from '../icons/slot';
 import { getConvertedExtraKey } from '@alilc/lowcode-designer';

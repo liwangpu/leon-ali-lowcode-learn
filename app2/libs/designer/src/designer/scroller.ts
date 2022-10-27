@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { isElement } from '@alilc/lowcode-utils';
 
 export class ScrollTarget {

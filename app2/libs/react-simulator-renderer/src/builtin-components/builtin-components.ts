@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactElement, createElement, ReactType } from 'react';
 import classNames from 'classnames';
 

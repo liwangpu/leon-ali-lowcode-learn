@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 /**
  * npm 源引入完整描述对象
  */

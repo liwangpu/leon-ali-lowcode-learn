@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Editor } from '@alilc/lowcode-editor-core';
 import {
   DocumentModel as InnerDocumentModel,

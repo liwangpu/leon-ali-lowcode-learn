@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { hotkey, HotkeyCallback } from '@alilc/lowcode-editor-core';
 import { Disposable } from '@alilc/lowcode-types';
 

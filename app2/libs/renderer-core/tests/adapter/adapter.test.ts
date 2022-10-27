@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-nocheck
 import adapter, { Env } from '../../src/adapter';
 

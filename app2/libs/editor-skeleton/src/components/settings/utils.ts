@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 function getHotterFromSetter(setter) {
   return setter && (setter.Hotter || (setter.type && setter.type.Hotter)) || []; // eslint-disable-line
 }

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { EventEmitter } from 'events';
 import { Node } from './node';
 import { DocumentModel } from '../document-model';

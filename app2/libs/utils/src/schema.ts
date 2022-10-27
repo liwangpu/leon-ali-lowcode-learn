@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { isJSBlock, isJSSlot, ActivityType, NodeSchema, PageSchema, RootSchema } from '@alilc/lowcode-types';
 import { isVariable } from './misc';
 import { isPlainObject } from './is-plain-object';

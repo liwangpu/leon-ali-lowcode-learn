@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { DocumentModel, Node as ComponentNode, ParentalNode } from '../document';
 import { LocateEvent } from './dragon';
 

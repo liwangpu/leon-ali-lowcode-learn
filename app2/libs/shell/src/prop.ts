@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Prop as InnerProp } from '@alilc/lowcode-designer';
 import { CompositeValue, TransformStage } from '@alilc/lowcode-types';
 import { propSymbol } from './symbols';

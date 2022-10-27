@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { TransformedComponentMetadata as Metadata } from '@alilc/lowcode-types';
 
 export function legacyIssues(metadata: Metadata): Metadata {

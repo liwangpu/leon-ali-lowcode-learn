@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ComponentInstance, NodeInstance, Component } from '../simulator';
 import { NodeSchema } from '@alilc/lowcode-types';
 

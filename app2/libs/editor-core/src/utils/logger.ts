@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import Logger, { Level } from 'zen-logger';
 
 export { Logger };

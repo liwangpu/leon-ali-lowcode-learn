@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import '../fixtures/window';
 import { ActiveTracker } from '../../src/designer/active-tracker';
 

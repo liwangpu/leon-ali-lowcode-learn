@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { DropLocation, ParentalNode, isLocationChildrenDetail } from '@alilc/lowcode-designer';
 
 const IndentSensitive = 15;

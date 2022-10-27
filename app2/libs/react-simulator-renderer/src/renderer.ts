@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { createElement, ReactInstance } from 'react';
 import { render as reactRender } from 'react-dom';
 import { host } from './host';

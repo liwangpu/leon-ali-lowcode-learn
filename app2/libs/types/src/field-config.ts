@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { TitleContent } from './title';
 import { SetterType, DynamicSetter } from './setter-config';
 import { SettingTarget } from './setting-target';

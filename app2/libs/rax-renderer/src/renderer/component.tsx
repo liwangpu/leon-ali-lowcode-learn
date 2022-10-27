@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { componentRendererFactory, types } from '@alilc/lowcode-renderer-core';
 
 export default function raxComponentRendererFactory() {

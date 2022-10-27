@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { CompositeObject, ComponentAction } from '@alilc/lowcode-types';
 import Logger from 'zen-logger';
 import {

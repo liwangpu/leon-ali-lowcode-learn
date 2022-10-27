@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { EventEmitter } from 'events';
 import { LocationDetail } from './location';
 import { Node, isNode } from '../document/node/node';

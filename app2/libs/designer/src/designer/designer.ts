@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ComponentType } from 'react';
 import { obx, computed, autorun, makeObservable, IReactionPublic, IReactionOptions, IReactionDisposer } from '@alilc/lowcode-editor-core';
 import {

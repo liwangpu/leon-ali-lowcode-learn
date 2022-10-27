@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { Component } from 'react';
 import { observer, engineConfig } from '@alilc/lowcode-editor-core';
 import { BorderDetecting } from './border-detecting';

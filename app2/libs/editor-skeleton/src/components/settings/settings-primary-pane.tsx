@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { Component } from 'react';
 import { Tab, Breadcrumb } from '@alifd/next';
 import { Title, observer, Editor, obx, globalContext, engineConfig, makeObservable } from '@alilc/lowcode-editor-core';

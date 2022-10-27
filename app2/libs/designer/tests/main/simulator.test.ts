@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import '../fixtures/window';
 import { isSimulatorHost } from '../../src/simulator';
 

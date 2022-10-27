@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import renderer from 'react-test-renderer';
 import rendererContainer from '../../../src/renderer';
 import SimulatorRendererView from '../../../src/renderer-view';

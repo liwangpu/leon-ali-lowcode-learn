@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { registerMetadataTransducer } from '@alilc/lowcode-designer';
 import parseJSFunc from './transducers/parse-func';
 import parseProps from './transducers/parse-props';

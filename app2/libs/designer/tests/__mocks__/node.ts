@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export class Node2 {
   a = 1;
   c = {};

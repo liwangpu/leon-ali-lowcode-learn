@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { DragObject as InnerDragObject, DragNodeDataObject } from '@alilc/lowcode-designer';
 import { dragObjectSymbol } from './symbols';
 import Node from './node';

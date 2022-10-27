@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { getMockRenderer } from './renderer';
 
 interface MockDocument extends Document {

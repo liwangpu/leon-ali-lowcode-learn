@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { InterpretDataSource as DataSource } from '@alilc/lowcode-datasource-types';
 import { ComponentsMap } from './npm';
 import {

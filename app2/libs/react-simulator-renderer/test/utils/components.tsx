@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export const Text = ({
   __tag,
   content,

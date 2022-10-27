@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 
 import React, { Component, createElement, PureComponent, createContext } from 'react';
 const mockGetRenderers = jest.fn();

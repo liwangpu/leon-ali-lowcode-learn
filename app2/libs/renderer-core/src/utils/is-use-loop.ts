@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { isJSExpression, JSExpression } from '@alilc/lowcode-types';
 
 // 1.渲染模式下，loop 是数组，则按照数组长度渲染组件

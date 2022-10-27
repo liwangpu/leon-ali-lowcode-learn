@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import {
   ComponentMeta as InnerComponentMeta,
   ParentalNode,

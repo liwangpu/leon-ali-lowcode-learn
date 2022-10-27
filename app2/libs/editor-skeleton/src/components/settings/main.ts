@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { EventEmitter } from 'events';
 import { Node, Designer, Selection, SettingTopEntry } from '@alilc/lowcode-designer';
 import { Editor, obx, computed, makeObservable, action } from '@alilc/lowcode-editor-core';

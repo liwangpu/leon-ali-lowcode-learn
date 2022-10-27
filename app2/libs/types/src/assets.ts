@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Snippet, ComponentMetadata } from './metadata';
 import { I18nData } from './i18n';
 

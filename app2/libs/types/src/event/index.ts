@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import * as Node from './node';
 
 export interface EventConfig {

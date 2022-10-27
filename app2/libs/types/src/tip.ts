@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { I18nData } from './i18n';
 import { ReactNode } from 'react';
 

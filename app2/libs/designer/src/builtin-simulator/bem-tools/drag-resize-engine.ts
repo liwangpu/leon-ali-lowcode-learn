@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { EventEmitter } from 'events';
 import { ISimulatorHost } from '../../simulator';
 import { Designer, Point } from '../../designer';

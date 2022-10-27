@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-nocheck
 import { isElementNode, isDOMNodeVisible, normalizeTriggers, makeEventsHandler } from '../../src/utils/misc';
 

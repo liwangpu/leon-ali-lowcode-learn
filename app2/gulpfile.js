@@ -35,42 +35,19 @@ async function copyDeps(cb) {
 }
 
 async function disableNoCheckToLibs(cb) {
-  // const filePath = './ttt.ts';
-  // let str = fs.readFileSync(filePath, { encoding: 'utf-8' });
-  // const noCheckReg = /^\/\/ @ts-nocheck /;
-  // if (!noCheckReg.test(str)) {
-  //   str = '// @ts-nocheck \r\n' + str;
-  //   fs.writeFileSync(filePath, str, { encoding: 'utf-8' });
-  // }
-  // console.log(`title:`,reg.test(str));
-  // str = '// @ts-nocheck \r\n' + str;
-  // fs.writeFileSync(filePath, str, { encoding: 'utf-8' });
-  // console.log(str);
-
-  // const dirs = fs.readdirSync('./libs/');
-  // // for (let dir of dirs) {
-  // //   let p = `./libs/${dir}/package.json`;
-  // // }
-  // console.log(`dirs:`,dirs);
-
-  // glob("./libs/**/*.ts", {}, function (err, files) {
-  //   if (err) {
-  //     return cb();
-  //   }
-  //   console.log(`files:`, files);
-
-  //   cb()
-  // });
-
   const files = fg.sync(["./libs/**/*.ts", "./libs/**/*.tsx"]);
-  console.log(`files:`, files);
+  // const files = fg.sync(["./libs/designer/src/index.ts"]);
   for (let filePath of files) {
     let str = fs.readFileSync(filePath, { encoding: 'utf-8' });
-    const noCheckReg = /^\/\/ @ts-nocheck /;
+    const noCheckReg = /^\/\/ @ts-nocheck\r\n/;
     if (!noCheckReg.test(str)) {
-      str = '// @ts-nocheck \r\n' + str;
+      str = '// @ts-nocheck\r\n' + str;
       fs.writeFileSync(filePath, str, { encoding: 'utf-8' });
     }
+    // if (noCheckReg.test(str)) {
+    //   str = str.replace(noCheckReg, '');
+    //   fs.writeFileSync(filePath, str, { encoding: 'utf-8' });
+    // }
   }
   cb();
 }

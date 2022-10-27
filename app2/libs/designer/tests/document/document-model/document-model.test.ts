@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import '../../fixtures/window';
 import { DocumentModel, isDocumentModel, isPageSchema } from '../../../src/document/document-model';
 import { Editor } from '@alilc/lowcode-editor-core';

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { TitleContent, isDynamicSetter, SetterType, DynamicSetter, FieldExtraProps, FieldConfig, CustomView, isCustomView } from '@alilc/lowcode-types';
 import { Transducer } from './utils';
 import { SettingPropEntry } from './setting-prop-entry';

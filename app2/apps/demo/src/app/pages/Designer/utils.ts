@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { material, project } from '@alilc/lowcode-engine';
 import { filterPackages } from '@alilc/lowcode-plugin-inject'
 import { Message, Dialog } from '@alifd/next';

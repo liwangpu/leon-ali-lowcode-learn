@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { IconType, TitleContent, isI18nData, TipContent, isTitleConfig } from '@alilc/lowcode-types';
 import { isValidElement } from 'react';
 

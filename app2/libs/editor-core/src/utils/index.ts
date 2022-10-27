@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export * from './get-public-path';
 export * from './obx';
 export * from './request';

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import EventEmitter from 'events';
 
 let instance: AppHelper | null = null;

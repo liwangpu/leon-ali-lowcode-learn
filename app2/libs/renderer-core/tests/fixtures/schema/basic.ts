@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export default {
   componentName: 'Page',
   id: 'node_dockcviv8fo1',

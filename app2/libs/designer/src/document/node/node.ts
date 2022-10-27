@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactElement } from 'react';
 import { EventEmitter } from 'events';
 import { obx, computed, autorun, makeObservable, runInAction, wrapWithEventSwitch, action } from '@alilc/lowcode-editor-core';

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 /* eslint-disable no-multi-assign */
 import { Editor, EngineConfig, engineConfig } from '@alilc/lowcode-editor-core';
 import { Designer, ILowCodePluginManager } from '@alilc/lowcode-designer';

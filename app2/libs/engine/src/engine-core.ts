@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { createElement } from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { globalContext, Editor, engineConfig, EngineOptions } from '@alilc/lowcode-editor-core';
@@ -38,13 +38,13 @@ globalContext.register(editor, Editor);
 globalContext.register(editor, 'editor');
 
 const innerSkeleton = new InnerSkeleton(editor);
-editor.set('skeleton' as any, innerSkeleton);
+editor.set('skeleton', innerSkeleton);
 
 const designer = new Designer({ editor });
-editor.set('designer' as any, designer);
+editor.set('designer', designer);
 
 const plugins = new LowCodePluginManager(editor).toProxy();
-editor.set('plugins' as any, plugins);
+editor.set('plugins', plugins);
 
 const { project: innerProject } = designer;
 const skeletonCabin = getSkeletonCabin(innerSkeleton);
@@ -194,7 +194,7 @@ export async function init(
   container?: HTMLElement,
   options?: EngineOptions,
   pluginPreference?: PluginPreference,
-  ) {
+) {
   await destroy();
   let engineOptions = null;
   if (isPlainObject(container)) {
@@ -211,9 +211,9 @@ export async function init(
       document.body.appendChild(engineContainer);
     }
   }
-  engineConfig.setEngineOptions(engineOptions as any);
+  engineConfig.setEngineOptions(engineOptions);
 
-  await plugins.init(pluginPreference as any);
+  await plugins.init(pluginPreference);
   render(
     createElement(Workbench, {
       skeleton: innerSkeleton,

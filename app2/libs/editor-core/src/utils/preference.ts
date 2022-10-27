@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import store from 'store';
 import { getLogger } from './logger';
 

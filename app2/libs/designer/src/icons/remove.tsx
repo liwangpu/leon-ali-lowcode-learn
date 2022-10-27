@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { SVGIcon, IconProps } from '@alilc/lowcode-utils';
 
 export function IconRemove(props: IconProps) {

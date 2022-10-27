@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { compatibleLegaoSchema } from '../../src/schema';
 describe('Schema Ut', () => {
   it('props', () => {

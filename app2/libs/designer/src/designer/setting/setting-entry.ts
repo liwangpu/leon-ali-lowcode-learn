@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { SettingTarget } from '@alilc/lowcode-types';
 import { ComponentMeta } from '../../component-meta';
 import { Designer } from '../designer';

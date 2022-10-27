@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import './cursor.less';
 
 export class Cursor {

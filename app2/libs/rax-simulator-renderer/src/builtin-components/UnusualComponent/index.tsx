@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component } from 'rax';
 import lg from '@ali/vu-logger';
 

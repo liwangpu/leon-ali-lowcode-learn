@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import StageBox from './stage-box';
 import './index.less';
 

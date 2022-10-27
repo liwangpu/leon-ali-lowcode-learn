@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component, PureComponent, createElement, createContext, forwardRef } from 'rax';
 import findDOMNode from 'rax-find-dom-node';
 import {

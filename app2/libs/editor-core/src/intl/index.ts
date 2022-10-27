@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactNode, Component, createElement } from 'react';
 import { IntlMessageFormat } from 'intl-messageformat';
 import { globalLocale } from './global-locale';

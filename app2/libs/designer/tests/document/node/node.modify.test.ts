@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import set from 'lodash/set';
 import cloneDeep from 'lodash/cloneDeep';
 import '../../fixtures/window';

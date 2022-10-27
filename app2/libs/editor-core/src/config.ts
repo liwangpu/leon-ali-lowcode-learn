@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ComponentType } from 'react';
 import { get as lodashGet } from 'lodash';
 import { isPlainObject } from '@alilc/lowcode-utils';

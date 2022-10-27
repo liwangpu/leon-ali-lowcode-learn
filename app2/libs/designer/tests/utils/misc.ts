@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import lodashSet from 'lodash/set';
 
 export function set(obj: any, path: any, val: any) {

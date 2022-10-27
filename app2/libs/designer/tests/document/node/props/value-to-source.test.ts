@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-nocheck
 import '../../../fixtures/silent-console';
 import { getSource, valueToSource } from '../../../../src/document/node/props/value-to-source';

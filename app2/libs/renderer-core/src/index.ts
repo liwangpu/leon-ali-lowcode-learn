@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import adapter from './adapter';
 import contextFactory from './context';
 

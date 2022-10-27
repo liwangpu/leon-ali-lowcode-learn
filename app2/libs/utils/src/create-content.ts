@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactNode, ComponentType, isValidElement, cloneElement, createElement } from 'react';
 import { isReactComponent } from './is-react';
 

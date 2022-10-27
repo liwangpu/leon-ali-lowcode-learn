@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import {
   Dragon as InnerDragon,
   DragObject as InnerDragObject,

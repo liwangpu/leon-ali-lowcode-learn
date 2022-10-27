@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import {
   Skeleton as InnerSkeleton,
   IWidgetBaseConfig,

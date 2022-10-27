@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 jest.mock('zen-logger', () => {
   class Logger {
     log() {}

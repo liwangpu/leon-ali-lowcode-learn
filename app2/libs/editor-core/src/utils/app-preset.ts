@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import store from 'store';
 
 declare global {

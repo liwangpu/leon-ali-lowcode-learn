@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { observer } from 'mobx-react';
 import { configure } from 'mobx';
 

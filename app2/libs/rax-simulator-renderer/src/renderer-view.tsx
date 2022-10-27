@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import RaxRenderer from '@alilc/lowcode-rax-renderer';
 import { History } from 'history';
 import { Component, createElement, Fragment } from 'rax';

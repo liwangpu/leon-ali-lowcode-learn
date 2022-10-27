@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 /* eslint-disable no-console */
 /* eslint-disable max-len */
 /* eslint-disable react/prop-types */

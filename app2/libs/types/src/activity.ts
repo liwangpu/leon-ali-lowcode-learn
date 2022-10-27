@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { NodeSchema } from './schema';
 
 export enum ActivityType {

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export * from './intl';
 export * from './editor';
 export * from './utils';

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { createDefer } from './create-defer';
 
 export function evaluate(script: string) {

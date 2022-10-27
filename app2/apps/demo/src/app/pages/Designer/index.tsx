@@ -1,6 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import './index.module.less';
 import { common, plugins } from '@alilc/lowcode-engine';
+import { registerPlugins } from './plugin';
 
 const Designer: React.FC = memo(() => {
 

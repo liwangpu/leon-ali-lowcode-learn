@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { computed, makeObservable, obx } from '@alilc/lowcode-editor-core';
 import { Designer, isLocationChildrenDetail } from '@alilc/lowcode-designer';
 import TreeNode from './tree-node';

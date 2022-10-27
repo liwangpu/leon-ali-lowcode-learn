@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ReactElement, ComponentType } from 'react';
 
 export interface IconConfig {

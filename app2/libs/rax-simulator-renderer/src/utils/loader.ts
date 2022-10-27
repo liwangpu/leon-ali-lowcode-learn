@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { load, evaluate } from './script';
 import StylePoint from './style';
 import {

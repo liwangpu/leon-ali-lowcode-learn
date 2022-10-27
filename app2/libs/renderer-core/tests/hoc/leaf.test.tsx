@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import renderer from 'react-test-renderer';
 import React from 'react';
 import { createElement } from 'react';

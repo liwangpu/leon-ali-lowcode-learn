@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component } from 'react';
 import classNames from 'classnames';
 import './index.less';

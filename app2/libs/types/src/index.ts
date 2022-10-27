@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export * from '@alilc/lowcode-datasource-types';
 export * from './editor';
 export * from './field-config';

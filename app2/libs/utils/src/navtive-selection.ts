@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 let nativeSelectionEnabled = true;
 const preventSelection = (e: Event) => {
   if (nativeSelectionEnabled) {

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 interface UtilsMetadata {
   name: string;
   npm: {

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component } from 'react';
 import { TipItem } from './tip-item';
 import { tipHandler } from './tip-handler';

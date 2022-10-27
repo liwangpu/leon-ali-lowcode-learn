@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { AssetType, AssetLevels, AssetLevel } from '@alilc/lowcode-types';
 import type { AssetItem, Asset, AssetList, AssetBundle, AssetsJson } from '@alilc/lowcode-types';
 import { isCSSUrl } from './is-css-url';

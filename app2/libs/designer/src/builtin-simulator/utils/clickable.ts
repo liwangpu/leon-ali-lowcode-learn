@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { getClosestNode, canClickNode } from '@alilc/lowcode-utils';
 import { Node } from '../../document';
 

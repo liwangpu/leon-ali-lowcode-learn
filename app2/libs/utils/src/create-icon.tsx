@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { isValidElement, ReactNode, createElement, cloneElement } from 'react';
 import { Icon } from '@alifd/next';
 import { IconType } from '@alilc/lowcode-types';

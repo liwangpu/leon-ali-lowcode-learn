@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { NodeChildren as InnerNodeChildren, Node as InnerNode } from '@alilc/lowcode-designer';
 import { NodeSchema, NodeData, TransformStage } from '@alilc/lowcode-types';
 import Node from './node';

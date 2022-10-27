@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { DocumentModel, Node } from '@alilc/lowcode-designer';
 import { computed, makeObservable } from '@alilc/lowcode-editor-core';
 import TreeNode from './tree-node';

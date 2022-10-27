@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-nocheck
 import { ComponentClass, Component, FunctionComponent, ComponentType, createElement } from 'react';
 import { cloneEnumerableProperty } from './clone-enumerable-property';

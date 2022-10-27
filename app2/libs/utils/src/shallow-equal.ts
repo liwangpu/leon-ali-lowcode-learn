@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { hasOwnProperty } from './has-own-property';
 
 export function shallowEqual(objA: any, objB: any): boolean {

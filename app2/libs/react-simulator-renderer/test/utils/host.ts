@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Box, Breadcrumb, Form, Select, Input, Button, Table, Pagination, Dialog } from '@alifd/next';
 import defaultSchema from '../schema/basic';
 import { Page } from './components';

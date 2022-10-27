@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import PropTypes from 'prop-types';
 import adapter from '../../adapter';
 import { IGeneralConstructor } from '../../types';

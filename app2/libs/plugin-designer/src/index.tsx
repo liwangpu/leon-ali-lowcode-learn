@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { PureComponent } from 'react';
 import { Editor, engineConfig, globalContext } from '@alilc/lowcode-editor-core';
 import { DesignerView, Designer } from '@alilc/lowcode-designer';

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component, MouseEvent } from 'react';
 import { isObject } from 'lodash';
 import classNames from 'classnames';

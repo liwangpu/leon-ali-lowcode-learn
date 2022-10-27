@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { PureComponent } from 'react';
 import { globalContext } from '@alilc/lowcode-editor-core';
 import { PluginProps } from '@alilc/lowcode-types';

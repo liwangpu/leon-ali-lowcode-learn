@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { blockRendererFactory, types } from '@alilc/lowcode-renderer-core';
 
 export default function raxBlockRendererFactory() {

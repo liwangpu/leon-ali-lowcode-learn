@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export * from './lock';
 export * from './hidden';
 export * from './remove';

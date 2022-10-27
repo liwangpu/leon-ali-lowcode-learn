@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export type ESModule = {
   __esModule: true;
   default: any;

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ComponentType } from 'react';
 import { Designer } from '../../designer';
 import { invariant } from '../../utils';

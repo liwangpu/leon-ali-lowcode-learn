@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
 import WidgetContainer from './widget/widget-container';
 import { Skeleton } from './skeleton';

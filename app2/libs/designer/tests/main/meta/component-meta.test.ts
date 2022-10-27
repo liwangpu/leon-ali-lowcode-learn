@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import '../../fixtures/window';
 import { Node } from '../../../src/document/node/node';
 import { Designer } from '../../../src/designer/designer';

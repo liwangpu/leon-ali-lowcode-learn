@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { SettingField, ISetValueOptions } from '@alilc/lowcode-designer';
 import { CompositeValue, FieldConfig, CustomView, isCustomView } from '@alilc/lowcode-types';
 import { settingPropEntrySymbol } from './symbols';

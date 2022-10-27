@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Box, Breadcrumb, Form, Select, Input, Button, Table, Pagination, Dialog } from '@alifd/next';

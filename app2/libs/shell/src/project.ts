@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import {
   BuiltinSimulatorHost,
   Project as InnerProject,

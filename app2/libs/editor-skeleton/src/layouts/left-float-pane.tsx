@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { Component, Fragment } from 'react';
 import classNames from 'classnames';
 import { observer, Focusable, focusTracker } from '@alilc/lowcode-editor-core';

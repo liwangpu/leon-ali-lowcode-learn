@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import { observer } from '@alilc/lowcode-editor-core';

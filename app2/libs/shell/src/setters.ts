@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { getSetter, registerSetter, getSettersMap, RegisteredSetter } from '@alilc/lowcode-editor-core';
 import { CustomView } from '@alilc/lowcode-types';
 

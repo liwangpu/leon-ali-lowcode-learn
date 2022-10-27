@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { obx, computed, globalContext, makeObservable } from '@alilc/lowcode-editor-core';
 import { Node, ParentalNode } from './node';
 import { TransformStage } from './transform-stage';

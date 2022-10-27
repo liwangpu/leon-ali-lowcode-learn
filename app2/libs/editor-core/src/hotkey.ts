@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { isEqual } from 'lodash';
 import { globalContext } from './di';
 import { Editor } from './editor';

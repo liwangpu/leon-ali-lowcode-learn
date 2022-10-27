@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { computed, makeObservable, obx } from '@alilc/lowcode-editor-core';
 import {
   Designer,

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { computed, makeObservable, obx, action } from '@alilc/lowcode-editor-core';
 import { PropsMap, PropsList, CompositeValue } from '@alilc/lowcode-types';
 import { uniqueId, compatStage } from '@alilc/lowcode-utils';

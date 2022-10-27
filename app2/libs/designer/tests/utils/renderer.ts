@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 export function getMockRenderer() {
   return {
     isSimulatorRenderer: true,

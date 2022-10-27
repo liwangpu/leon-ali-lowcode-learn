@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-ignore
 import React from 'react';
 import set from 'lodash/set';

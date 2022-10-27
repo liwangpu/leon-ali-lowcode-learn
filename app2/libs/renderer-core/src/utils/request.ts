@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import 'whatwg-fetch';
 import fetchJsonp from 'fetch-jsonp';
 import { serializeParams } from '.';

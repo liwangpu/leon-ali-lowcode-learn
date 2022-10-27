@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 // @ts-nocheck
 import { includeSlot, removeSlot } from '../../src/utils/slot';
 

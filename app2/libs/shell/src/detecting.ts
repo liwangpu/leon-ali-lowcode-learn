@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import {
   Detecting as InnerDetecting,
   DocumentModel as InnerDocumentModel,

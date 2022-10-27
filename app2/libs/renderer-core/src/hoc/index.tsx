@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { cloneEnumerableProperty } from '@alilc/lowcode-utils';
 import adapter from '../adapter';
 

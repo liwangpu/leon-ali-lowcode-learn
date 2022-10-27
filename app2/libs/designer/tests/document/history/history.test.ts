@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import '../../fixtures/window';
 import { mobx, makeAutoObservable, globalContext, Editor } from '@alilc/lowcode-editor-core';
 import { History } from '../../../src/document/history';

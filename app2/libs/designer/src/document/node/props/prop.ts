@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { untracked, computed, obx, engineConfig, action, makeObservable, mobx, runInAction } from '@alilc/lowcode-editor-core';
 import { CompositeValue, GlobalEvent, isJSExpression, isJSSlot, JSSlot, SlotSchema } from '@alilc/lowcode-types';
 import { uniqueId, isPlainObject, hasOwnProperty, compatStage } from '@alilc/lowcode-utils';

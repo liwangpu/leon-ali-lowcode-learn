@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import { ParentalNode, DropLocation, isLocationChildrenDetail, LocateEvent } from '@alilc/lowcode-designer';
 
 /**

@@ -1,4 +1,4 @@
-// @ts-nocheck 
+// @ts-nocheck
 import renderer from './renderer';
 
 if (typeof window !== 'undefined') {
