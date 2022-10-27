@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { IRuntime, IRendererModules, IGeneralConstructor } from '../types';
 
 export enum Env {

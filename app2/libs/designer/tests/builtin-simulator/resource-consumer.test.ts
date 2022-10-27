@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import ResourceConsumer from '../../src/builtin-simulator/resource-consumer';
 import { delayObxTick, delay } from '../utils';
 

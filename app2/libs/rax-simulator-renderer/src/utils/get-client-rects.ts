@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { isElement } from '@alilc/lowcode-utils';
 
 // a range for test TextNode clientRect

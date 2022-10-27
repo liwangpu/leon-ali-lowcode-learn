@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
 import { Point, ScrollTarget } from '../designer';
 import { AutoFit, IViewport } from '../simulator';

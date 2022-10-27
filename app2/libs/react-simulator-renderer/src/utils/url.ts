@@ -1,3 +1,4 @@
+// @ts-nocheck 
 /**
  * Parse queryString
  * @param  {String} str '?q=query&b=test'

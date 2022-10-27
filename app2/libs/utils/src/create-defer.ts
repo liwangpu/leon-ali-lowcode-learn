@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export interface Defer<T = any> {
   resolve(value?: T | PromiseLike<T>): void;
   reject(reason?: any): void;

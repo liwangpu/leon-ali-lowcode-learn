@@ -1,3 +1,4 @@
+// @ts-nocheck 
 /* eslint-disable no-console */
 /* eslint-disable no-new-func */
 import logger from './logger';

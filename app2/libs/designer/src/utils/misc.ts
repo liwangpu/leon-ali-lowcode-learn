@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import Viewport from '../builtin-simulator/viewport';
 import { ISimulatorHost } from '../simulator';
 

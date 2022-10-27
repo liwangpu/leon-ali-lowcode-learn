@@ -1,3 +1,4 @@
+// @ts-nocheck 
 function propertyNameRequiresQuotes(propertyName: string) {
   try {
     const context = {

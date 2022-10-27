@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // all this file for polyfill vision logic
 import { isValidElement } from 'react';
 import { isSetterConfig, isDynamicSetter, FieldConfig, SetterConfig } from '@alilc/lowcode-types';

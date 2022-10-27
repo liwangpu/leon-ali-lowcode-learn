@@ -1,3 +1,4 @@
+// @ts-nocheck 
 /* eslint-disable no-console */
 /* eslint-disable max-len */
 /* eslint-disable object-curly-newline */

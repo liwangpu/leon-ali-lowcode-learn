@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { PropChangeOptions } from "@ali/lowcode-designer";
 import EventEmitter from "events";
 

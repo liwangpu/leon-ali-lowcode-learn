@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Detecting } from '../../src/designer/detecting';
 
 it('Detecting 测试', () => {

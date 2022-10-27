@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactInstance, Fragment, Component, createElement } from 'react';
 import { Router, Route, Switch } from 'react-router';
 import cn from 'classnames';

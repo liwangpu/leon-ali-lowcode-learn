@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export type PropType = BasicType | RequiredType | ComplexType;
 export type BasicType = 'array' | 'bool' | 'func' | 'number' | 'object' | 'string' | 'node' | 'element' | 'any';
 export type ComplexType = OneOf | OneOfType | ArrayOf | ObjectOf | Shape | Exact;

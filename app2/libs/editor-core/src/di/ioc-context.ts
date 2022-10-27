@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { IocContext } from 'power-di';
 
 export * from 'power-di';

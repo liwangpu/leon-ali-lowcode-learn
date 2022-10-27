@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import baseRendererFactory from './base';
 import { IBaseRendererProps, IBaseRenderComponent } from '../types';
 

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { EventEmitter } from 'events';
 import { obx, makeObservable } from '@alilc/lowcode-editor-core';
 import { Node, comparePosition, PositionNO } from './node/node';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export const sampleSchema = {
   "componentName": "Page",
   "id": "node_ockyigdqxl1",

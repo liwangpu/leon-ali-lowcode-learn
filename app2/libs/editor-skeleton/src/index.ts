@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export { Workbench } from './layouts/workbench';
 export * from './skeleton';
 export * from './types';

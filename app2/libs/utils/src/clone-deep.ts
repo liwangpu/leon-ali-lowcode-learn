@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { isPlainObject } from './is-plain-object';
 
 export function cloneDeep(src: any): any {

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export interface AppConfig {
   sdkVersion?: string;
   historyMode?: string;

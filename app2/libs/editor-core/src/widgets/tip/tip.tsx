@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'react';
 import { TipConfig } from '@alilc/lowcode-types';
 import { uniqueId } from '@alilc/lowcode-utils';

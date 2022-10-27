@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import {
   DropLocation as InnerDropLocation,
 } from '@alilc/lowcode-designer';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { SettingEntry } from '@alilc/lowcode-designer';
 import { settingTopEntrySymbol } from './symbols';
 import Node from './node';

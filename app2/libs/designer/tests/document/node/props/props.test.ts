@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 import '../../../fixtures/window';
 import { set, delayObxTick } from '../../../utils';

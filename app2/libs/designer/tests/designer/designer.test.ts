@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../fixtures/window';
 import { Editor, globalContext } from '@alilc/lowcode-editor-core';
 import { Project } from '../../src/project/project';

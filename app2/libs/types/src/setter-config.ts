@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ComponentClass, Component, ComponentType, ReactElement, isValidElement } from 'react';
 import { TitleContent } from './title';
 import { SettingTarget } from './setting-target';

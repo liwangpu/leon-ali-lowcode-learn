@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { obx, computed, makeObservable, runInAction } from '@alilc/lowcode-editor-core';
 import { GlobalEvent, IEditor, isJSExpression } from '@alilc/lowcode-types';
 import { uniqueId } from '@alilc/lowcode-utils';

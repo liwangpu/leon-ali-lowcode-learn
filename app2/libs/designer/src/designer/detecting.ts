@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { makeObservable, obx } from '@alilc/lowcode-editor-core';
 import { EventEmitter } from 'events';
 import { Node, DocumentModel } from '../document';

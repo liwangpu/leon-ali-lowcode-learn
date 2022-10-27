@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export * from './component-meta';
 export * from './simulator';
 export * from './designer';

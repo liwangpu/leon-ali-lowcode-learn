@@ -1,3 +1,4 @@
+// @ts-nocheck 
 let globalEventOn = true;
 
 export function setGlobalEventFlag(flag: boolean) {

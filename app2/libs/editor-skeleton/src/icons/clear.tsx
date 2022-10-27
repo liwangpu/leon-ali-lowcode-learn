@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { SVGIcon, IconProps } from '@alilc/lowcode-utils';
 
 export function IconClear(props: IconProps) {

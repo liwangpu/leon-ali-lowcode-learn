@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactElement, ComponentType } from 'react';
 import { TitleContent, IconType, I18nData, TipContent } from '@alilc/lowcode-types';
 import { IWidget } from './widget/widget';

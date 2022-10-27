@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { NodeSchema, NodeData } from './schema';
 
 /**

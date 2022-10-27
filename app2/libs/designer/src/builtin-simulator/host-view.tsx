@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import React, { Component } from 'react';
 import { observer, globalContext } from '@alilc/lowcode-editor-core';
 import { BuiltinSimulatorHost, BuiltinSimulatorProps } from './host';

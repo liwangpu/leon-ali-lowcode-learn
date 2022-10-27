@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactNode, createElement } from 'react';
 import { makeObservable, obx } from '@alilc/lowcode-editor-core';
 import { uniqueId, createContent } from '@alilc/lowcode-utils';

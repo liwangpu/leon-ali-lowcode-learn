@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import React, { Component, PureComponent, createElement, createContext, forwardRef, ReactInstance, ContextType } from 'react';
 import ReactDOM from 'react-dom';
 import {

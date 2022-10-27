@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { isElement } from '@alilc/lowcode-utils';
 import findDOMNode from 'rax-find-dom-node';
 // import { isDOMNode } from './is-dom-node';

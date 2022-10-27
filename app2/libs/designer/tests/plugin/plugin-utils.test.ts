@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../fixtures/window';
 import { isValidPreferenceKey, filterValidOptions } from '../../src/plugin/plugin-utils';
 

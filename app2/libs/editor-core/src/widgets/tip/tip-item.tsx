@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'react';
 import classNames from 'classnames';
 import { TipConfig } from '@alilc/lowcode-types';

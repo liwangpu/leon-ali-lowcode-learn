@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactNode, createElement } from 'react';
 import { TitleContent } from '@alilc/lowcode-types';
 import './index.less';

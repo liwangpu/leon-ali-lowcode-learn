@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { makeObservable, obx, engineConfig, action, runWithGlobalEventOff, wrapWithEventSwitch } from '@alilc/lowcode-editor-core';
 import { NodeData, isJSExpression, isDOMText, NodeSchema, isNodeSchema, RootSchema, PageSchema, ComponentsMap } from '@alilc/lowcode-types';
 import { EventEmitter } from 'events';

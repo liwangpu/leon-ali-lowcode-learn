@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export interface PackageJSON {
   name: string;
   version: string;

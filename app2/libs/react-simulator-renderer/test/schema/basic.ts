@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export default {
   id: 'node_ockvuu8u911',
   css: 'body{background-color:#f2f3f5}',

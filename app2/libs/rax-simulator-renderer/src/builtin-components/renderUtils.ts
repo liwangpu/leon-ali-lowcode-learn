@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { isObject } from 'lodash';
 import { css } from '@alilc/lowcode-utils';
 

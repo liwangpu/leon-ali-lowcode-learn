@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import type { ComponentLifecycle, CSSProperties } from 'react';
 import { BuiltinSimulatorHost } from '@alilc/lowcode-designer';
 import { RequestHandler, NodeSchema, NodeData, RootSchema, JSONObject } from '@alilc/lowcode-types';

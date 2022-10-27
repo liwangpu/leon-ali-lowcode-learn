@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 const mockSerializeParams = jest.fn();
 jest.mock('../../src/utils/common', () => {

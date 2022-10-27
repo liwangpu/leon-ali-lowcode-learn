@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export class FocusTracker {
   mount(win: Window) {
     const checkDown = (e: MouseEvent) => {

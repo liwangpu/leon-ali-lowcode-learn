@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../../fixtures/window';
 import { Session } from '../../../src/document/history';
 import { delay } from '../../utils/misc';

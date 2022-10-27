@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component as ReactComponent, ComponentType } from 'react';
 import { ComponentMetadata, NodeSchema } from '@alilc/lowcode-types';
 import { ISensor, Point, ScrollTarget, IScrollable, LocateEvent, LocationData } from './designer';

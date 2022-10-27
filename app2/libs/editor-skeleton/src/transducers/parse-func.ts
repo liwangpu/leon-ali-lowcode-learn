@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import {
   FieldConfig,
   TransformedComponentMetadata,

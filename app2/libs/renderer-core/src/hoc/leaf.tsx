@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { BuiltinSimulatorHost, Node, PropChangeOptions } from '@alilc/lowcode-designer';
 import { GlobalEvent, TransformStage, NodeSchema } from '@alilc/lowcode-types';
 import { isReactComponent, cloneEnumerableProperty } from '@alilc/lowcode-utils';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { createContext } from 'react';
 import { Skeleton } from './skeleton';
 

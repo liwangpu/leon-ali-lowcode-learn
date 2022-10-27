@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { getLogger, Logger } from '@alilc/lowcode-utils';
 import {
   ILowCodePlugin,

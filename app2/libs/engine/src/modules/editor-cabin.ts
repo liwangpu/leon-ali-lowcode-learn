@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export {
   Title,
   Tip,

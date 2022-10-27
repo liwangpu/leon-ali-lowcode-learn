@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Node } from '../document/node/node';
 
 export function includeSlot(node: Node, slotName: string | undefined): boolean {

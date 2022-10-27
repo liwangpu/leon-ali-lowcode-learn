@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, ReactElement } from 'react';
 import { Icon } from '@alifd/next';
 import classNames from 'classnames';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { version } from './engine-core';
 export * from './engine-core';
 

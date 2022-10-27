@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { LocateEvent as InnerLocateEvent } from '@alilc/lowcode-designer';
 import { locateEventSymbol } from './symbols';
 import DragObject from './drag-object';

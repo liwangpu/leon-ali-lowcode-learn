@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { getSetter, registerSetter, getSettersMap } from '@alilc/lowcode-editor-core';
 import { isFormEvent, compatibleLegaoSchema, getNodeSchemaById } from '@alilc/lowcode-utils';
 import { isNodeSchema } from '@alilc/lowcode-types';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import adapter from '../adapter';
 import { IGeneralConstructor } from '../types';
 

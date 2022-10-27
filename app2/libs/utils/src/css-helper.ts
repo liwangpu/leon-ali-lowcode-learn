@@ -1,3 +1,4 @@
+// @ts-nocheck 
 /**
  * just for legao
  * @author: jiushen

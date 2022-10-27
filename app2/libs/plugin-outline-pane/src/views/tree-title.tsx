@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, KeyboardEvent, FocusEvent, Fragment } from 'react';
 import classNames from 'classnames';
 import { observer, Title, Tip, globalContext, Editor, engineConfig } from '@alilc/lowcode-editor-core';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 function resolveEdge(popup: any, target: any, arrow: any, bounds: any) {
   const sx = arrow.width > target.width ? (arrow.width - target.width) / 2 : 0;
   const sy = arrow.width > target.height ? (arrow.width - target.height) / 2 : 0;

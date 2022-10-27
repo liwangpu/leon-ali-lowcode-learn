@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, isValidElement, ReactNode } from 'react';
 import classNames from 'classnames';
 import { createIcon } from '@alilc/lowcode-utils';

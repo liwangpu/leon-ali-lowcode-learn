@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { EventEmitter } from 'events';
 import { CustomView, isCustomView, IEditor } from '@alilc/lowcode-types';
 import { computed } from '@alilc/lowcode-editor-core';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { createIntl } from '@alilc/lowcode-editor-core';
 import en_US from './en-US.json';
 import zh_CN from './zh-CN.json';

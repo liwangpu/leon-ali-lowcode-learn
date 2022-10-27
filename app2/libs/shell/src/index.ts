@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import Detecting from './detecting';
 // import Dragon from './dragon';
 import DocumentModel from './document-model';

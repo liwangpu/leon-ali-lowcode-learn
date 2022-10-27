@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @todo 改成 hooks
 import React, { Component } from 'react';
 import classNames from 'classnames';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import * as React from 'react';
 import { Component, Fragment, ReactElement, PureComponent } from 'react';
 import classNames from 'classnames';

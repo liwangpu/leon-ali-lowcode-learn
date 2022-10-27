@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import {
   projectSymbol,
   documentSymbol,

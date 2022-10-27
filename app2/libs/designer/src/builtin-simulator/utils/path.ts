@@ -1,3 +1,4 @@
+// @ts-nocheck 
 /**
  * Check whether a component is external package, e.g. @ali/uxcore
  * @param path Component path

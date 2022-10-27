@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { autorun, obx } from '@alilc/lowcode-editor-core';
 import { BuiltinSimulatorHost } from './host';
 import { EventEmitter } from 'events';

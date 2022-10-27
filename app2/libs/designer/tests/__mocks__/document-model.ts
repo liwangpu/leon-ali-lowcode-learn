@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export class DocumentModel {
   a = 1;
   c = {};

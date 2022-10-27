@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ComponentType, forwardRef, createElement, FunctionComponent } from 'react';
 import { NpmInfo, ComponentSchema } from '@alilc/lowcode-types';
 import { Component } from '@alilc/lowcode-designer';

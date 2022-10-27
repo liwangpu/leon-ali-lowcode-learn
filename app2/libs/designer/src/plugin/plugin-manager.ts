@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Editor, engineConfig } from '@alilc/lowcode-editor-core';
 import { getLogger } from '@alilc/lowcode-utils';
 import {

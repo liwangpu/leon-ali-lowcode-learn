@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'react';
 
 class Slot extends Component {

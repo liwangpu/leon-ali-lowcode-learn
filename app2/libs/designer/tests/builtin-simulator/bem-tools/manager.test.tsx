@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../../fixtures/window';
 import { set, delayObxTick, delay } from '../../utils';
 import { Editor } from '@alilc/lowcode-editor-core';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'react';
 import { observer, engineConfig } from '@alilc/lowcode-editor-core';
 import { Designer } from '../designer';

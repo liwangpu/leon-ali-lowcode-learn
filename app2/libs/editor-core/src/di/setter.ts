@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactNode } from 'react';
 import { CustomView, isCustomView, TitleContent } from '@alilc/lowcode-types';
 import { createContent } from '@alilc/lowcode-utils';

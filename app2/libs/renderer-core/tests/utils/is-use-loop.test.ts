@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 import isUseLoop from '../../src/utils/is-use-loop';
 

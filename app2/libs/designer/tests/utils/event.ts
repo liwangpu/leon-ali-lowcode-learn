@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export function getMockEvent(target, options) {
   return {
     target,

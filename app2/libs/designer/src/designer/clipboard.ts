@@ -1,3 +1,4 @@
+// @ts-nocheck 
 function getDataFromPasteEvent(event: ClipboardEvent) {
   const { clipboardData } = event;
   if (!clipboardData) {

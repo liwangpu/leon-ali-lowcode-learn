@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ComponentMetadata } from "@alilc/lowcode-types";
 export default {
   componentName: 'RootHeader',

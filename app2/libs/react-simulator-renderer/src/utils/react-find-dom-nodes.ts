@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactInstance } from 'react';
 import { findDOMNode } from 'react-dom';
 import { isElement } from '@alilc/lowcode-utils';

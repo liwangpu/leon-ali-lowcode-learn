@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import React from 'react';
 import { Box, Breadcrumb, Form, Select, Input, Button, Table, Pagination, Dialog } from '@alifd/next';
 

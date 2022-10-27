@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactNode, ComponentType, ReactElement } from 'react';
 import { IconType } from './icon';
 import { TipContent } from './tip';

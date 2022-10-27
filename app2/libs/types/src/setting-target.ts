@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { IEditor } from './editor';
 
 export interface SettingTarget {

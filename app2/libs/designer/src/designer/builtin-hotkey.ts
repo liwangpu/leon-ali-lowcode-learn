@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { hotkey, Editor, globalContext } from '@alilc/lowcode-editor-core';
 import { isFormEvent } from '@alilc/lowcode-utils';
 import { focusing } from './focusing';

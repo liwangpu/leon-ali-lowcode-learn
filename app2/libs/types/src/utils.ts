@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { NpmInfo } from './npm';
 import { JSExpression, JSFunction } from './value-type';
 

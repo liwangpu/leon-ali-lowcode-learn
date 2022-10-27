@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Editor, action, makeObservable } from '@alilc/lowcode-editor-core';
 import {
   DockConfig,

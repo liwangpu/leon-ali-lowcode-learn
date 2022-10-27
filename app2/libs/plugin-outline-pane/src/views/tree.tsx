@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, MouseEvent as ReactMouseEvent } from 'react';
 import { observer, Editor, globalContext } from '@alilc/lowcode-editor-core';
 import { isRootNode, Node, DragObjectType, isShaken } from '@alilc/lowcode-designer';

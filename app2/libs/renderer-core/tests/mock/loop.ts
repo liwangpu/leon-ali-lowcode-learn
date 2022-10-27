@@ -1,3 +1,4 @@
+// @ts-nocheck 
 const schema = {
     "componentName": "Page",
     "id": "node_ocl1djd9o41",

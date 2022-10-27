@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export enum TransformStage {
   Render = 'render',
   Serilize = 'serilize',

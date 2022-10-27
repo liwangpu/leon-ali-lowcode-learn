@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 
 import { Component, forwardRef } from 'rax';

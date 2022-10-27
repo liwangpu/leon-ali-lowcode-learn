@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { EventEmitter } from 'events';
 import { autorun, reaction, mobx, untracked, globalContext, Editor } from '@alilc/lowcode-editor-core';
 import { NodeSchema } from '@alilc/lowcode-types';

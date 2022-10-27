@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import {
   DocumentModel as InnerDocumentModel,
   Node as InnerNode,

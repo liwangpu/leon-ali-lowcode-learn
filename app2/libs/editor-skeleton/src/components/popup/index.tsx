@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { createContext, ReactNode, Component, PureComponent } from 'react';
 import { EventEmitter } from 'events';
 import { Drawer, ConfigProvider } from '@alifd/next';

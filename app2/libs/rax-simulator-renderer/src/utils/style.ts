@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { createDefer } from './create-defer';
 
 export default class StylePoint {

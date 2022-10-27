@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../fixtures/window';
 import { getMockWindow, set, getMockElement, delay } from '../utils';
 import { Editor, globalContext } from '@alilc/lowcode-editor-core';

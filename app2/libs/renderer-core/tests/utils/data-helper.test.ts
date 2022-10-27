@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 const mockJsonp = jest.fn();
 const mockRequest = jest.fn();

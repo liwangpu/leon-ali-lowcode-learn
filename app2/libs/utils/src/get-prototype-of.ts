@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export function getPrototypeOf(target: any) {
   if (typeof Object.getPrototypeOf !== 'undefined') {
     return Object.getPrototypeOf(target);

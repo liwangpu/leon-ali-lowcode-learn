@@ -1,17 +1,13 @@
 const { series, watch } = require("gulp");
 const fs = require('fs');
 const { readdir } = require('fs/promises');
-const glob = require("glob")
+const path = require('path');
+// const globby = require("globby")
+const fg = require('fast-glob');
 
 async function copyDeps(cb) {
   const packagePath = './package.json';
   const rootPackage = JSON.parse(fs.readFileSync(packagePath, { encoding: 'utf-8' }));
-  // const package = JSON.parse(fs.readFileSync(packagePath, { encoding: 'utf-8' }));
-  // const versionStr = package.version;
-  // const patchVersionGapIdx = versionStr.lastIndexOf('.');
-  // let patchVersion = Number(versionStr.slice(patchVersionGapIdx + 1, versionStr.length));
-  // package.version = versionStr.slice(0, patchVersionGapIdx + 1) + (patchVersion + 1);
-  // fs.writeFileSync(packagePath, JSON.stringify(package), { encoding: 'utf-8' });
   const dirs = await readdir('./libs');
 
   const copy = (subPck, propertyKey) => {
@@ -34,7 +30,6 @@ async function copyDeps(cb) {
     copy(subPck, 'devDependencies');
   }
 
-  // console.log(`rootPackage:`, rootPackage);
   fs.writeFileSync(packagePath, JSON.stringify(rootPackage), { encoding: 'utf-8' });
   cb();
 }
@@ -58,15 +53,26 @@ async function disableNoCheckToLibs(cb) {
   // // }
   // console.log(`dirs:`,dirs);
 
-  glob("./libs/**/*.ts", {}, function (err, files) {
-    if (err) {
-      return cb();
+  // glob("./libs/**/*.ts", {}, function (err, files) {
+  //   if (err) {
+  //     return cb();
+  //   }
+  //   console.log(`files:`, files);
+
+  //   cb()
+  // });
+
+  const files = fg.sync(["./libs/**/*.ts", "./libs/**/*.tsx"]);
+  console.log(`files:`, files);
+  for (let filePath of files) {
+    let str = fs.readFileSync(filePath, { encoding: 'utf-8' });
+    const noCheckReg = /^\/\/ @ts-nocheck /;
+    if (!noCheckReg.test(str)) {
+      str = '// @ts-nocheck \r\n' + str;
+      fs.writeFileSync(filePath, str, { encoding: 'utf-8' });
     }
-    console.log(`files:`, files);
-
-    cb()
-  });
-
+  }
+  cb();
 }
 
 exports.disableNoCheckToLibs = series(disableNoCheckToLibs);

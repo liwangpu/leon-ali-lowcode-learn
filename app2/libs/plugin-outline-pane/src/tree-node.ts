@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { TitleContent, isI18nData } from '@alilc/lowcode-types';
 import { computed, obx, intl, makeObservable, action } from '@alilc/lowcode-editor-core';
 import { Node, DocumentModel, isLocationChildrenDetail, LocationChildrenDetail, Designer } from '@alilc/lowcode-designer';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export interface ChangeOptions {
   key?: string | number;
   prop?: any;

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export default {
   componentName: 'Page',
   id: 'page',

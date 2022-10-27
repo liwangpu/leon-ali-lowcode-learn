@@ -1,3 +1,4 @@
+// @ts-nocheck 
 const useRAF = typeof requestAnimationFrame === 'function';
 
 // eslint-disable-next-line @typescript-eslint/ban-types

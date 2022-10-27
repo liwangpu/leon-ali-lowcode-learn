@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { NodeChildren } from '../document/node/node-children';
 
 type IterableArray = NodeChildren | any[];

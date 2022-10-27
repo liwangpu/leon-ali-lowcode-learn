@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, Fragment } from 'react';
 import { Button, Icon } from '@alifd/next';
 import { action, makeObservable } from '@alilc/lowcode-editor-core';

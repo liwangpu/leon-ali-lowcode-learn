@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import PropTypes from 'prop-types';
 import { isValidElement } from 'react';
 import { isElement } from '@alilc/lowcode-utils';

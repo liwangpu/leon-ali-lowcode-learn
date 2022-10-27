@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import baseRendererFactory from './base';
 import pageRendererFactory from './page';
 import componentRendererFactory from './component';

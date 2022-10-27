@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, Fragment, PureComponent } from 'react';
 import classNames from 'classnames';
 import { computed, observer, Title } from '@alilc/lowcode-editor-core';

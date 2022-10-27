@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import './style.less';
 
 export * from './settings-primary-pane';

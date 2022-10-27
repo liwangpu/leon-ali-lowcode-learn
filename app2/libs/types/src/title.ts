@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { ReactElement, ReactNode } from 'react';
 import { I18nData, isI18nData } from './i18n';
 import { TipContent } from './tip';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { runInAction } from 'mobx';
 import renderer from './renderer';
 

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { OutlinePane } from './views/pane';
 import { OutlineBackupPane } from './views/backup-pane';
 import { IconOutline } from './icons/outline';

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 function sequence(tasks, names, results, missing, recursive, nest) {
   names.forEach((name) => {
     if (results.indexOf(name) !== -1) {

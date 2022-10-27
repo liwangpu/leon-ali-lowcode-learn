@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import React from 'react';
 import renderer from 'react-test-renderer';
 import schema from '../fixtures/schema/basic';

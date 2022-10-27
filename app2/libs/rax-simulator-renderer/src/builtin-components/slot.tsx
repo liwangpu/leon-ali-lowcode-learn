@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'rax';
 
 class Slot extends Component {

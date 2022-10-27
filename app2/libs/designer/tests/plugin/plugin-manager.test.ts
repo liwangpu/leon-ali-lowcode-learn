@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../fixtures/window';
 import { Editor, engineConfig } from '@alilc/lowcode-editor-core';
 import { LowCodePluginManager } from '../../src/plugin/plugin-manager';

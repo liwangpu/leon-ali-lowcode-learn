@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // NOTE: 仅用作类型标注，切勿作为实体使用
 import { BuiltinSimulatorHost } from './host';
 import {

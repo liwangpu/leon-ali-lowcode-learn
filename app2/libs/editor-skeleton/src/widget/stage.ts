@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // import { uniqueId } from '@alilc/lowcode-utils';
 import Widget from './widget';
 import { Skeleton } from '../skeleton';

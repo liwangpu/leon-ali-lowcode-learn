@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component } from 'react';
 import { TipContainer, observer } from '@alilc/lowcode-editor-core';
 import classNames from 'classnames';

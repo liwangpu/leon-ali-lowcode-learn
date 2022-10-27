@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../../fixtures/disable-raf';
 import { throttle } from '../../../src/builtin-simulator/utils/throttle';
 

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { pageRendererFactory, types } from '@alilc/lowcode-renderer-core';
 
 export default function raxPageRendererFactory() {

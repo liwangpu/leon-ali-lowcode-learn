@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import PropTypes from 'prop-types';
 import baseRendererFactory from './base';
 import { isEmpty } from '../utils';

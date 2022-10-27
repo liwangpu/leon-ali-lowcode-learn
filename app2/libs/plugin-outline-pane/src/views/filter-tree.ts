@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import TreeNode from '../tree-node';
 
 export const FilterType = {

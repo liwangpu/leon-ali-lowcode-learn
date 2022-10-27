@@ -1,3 +1,4 @@
+// @ts-nocheck 
 export { getIdsFromSchema, getNodeFromSchemaById } from '@alilc/lowcode-test-mate/es/utils';
 export * from './bom';
 export * from './event';

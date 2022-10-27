@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import '../../fixtures/window';
 import { Editor } from '@alilc/lowcode-editor-core';
 import { Project } from '../../../src/project/project';

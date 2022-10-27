@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Designer } from './designer';
 
 // TODO: use focus-tracker replace

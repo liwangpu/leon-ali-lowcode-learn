@@ -1,3 +1,4 @@
+// @ts-nocheck 
 // @ts-nocheck
 export function isFormEvent(e: KeyboardEvent | MouseEvent) {
   const t = e.target as HTMLFormElement;

@@ -1,3 +1,4 @@
+// @ts-nocheck 
 
 import { isI18NObject } from './is-object';
 import { get } from 'lodash';

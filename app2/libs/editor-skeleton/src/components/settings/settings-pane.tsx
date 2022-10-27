@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Component, MouseEvent, Fragment } from 'react';
 import { shallowIntl, createSetterContent, observer, obx, engineConfig, runInAction, globalContext } from '@alilc/lowcode-editor-core';
 import { createContent } from '@alilc/lowcode-utils';

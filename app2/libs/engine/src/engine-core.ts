@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { createElement } from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { globalContext, Editor, engineConfig, EngineOptions } from '@alilc/lowcode-editor-core';

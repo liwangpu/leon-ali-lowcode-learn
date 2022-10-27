@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import { Editor as InnerEditor, globalContext } from '@alilc/lowcode-editor-core';
 import { getLogger } from '@alilc/lowcode-utils';
 import { editorSymbol } from './symbols';
