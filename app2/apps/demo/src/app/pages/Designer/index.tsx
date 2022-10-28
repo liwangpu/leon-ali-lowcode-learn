@@ -1,13 +1,18 @@
 import React, { memo, useEffect, useState } from 'react';
-import './index.module.less';
-import { common, plugins } from '@alilc/lowcode-engine';
-import { registerPlugins } from './plugin';
+import styles from './index.module.less';
+// import { AssetLevel } from '@alilc/lowcode-types';
+// import { common, plugins } from '@alilc/lowcode-engine';
+// import { registerPlugins } from './plugin';
+import * as engine from '@alilc/lowcode-engine';
+
+const AliLowCodeEngine = engine;
+window['AliLowCodeEngine'] = AliLowCodeEngine;
 
 const Designer: React.FC = memo(() => {
 
   /** 插件是否已初始化成功，因为必须要等插件初始化后才能渲染 Workbench */
   const [hasPluginInited, setHasPluginInited] = useState(false);
-  const Workbench = common.skeletonCabin.Workbench;
+  // const Workbench = common.skeletonCabin.Workbench;
 
   useEffect(() => {
     registPlugins();
@@ -35,24 +40,26 @@ const Designer: React.FC = memo(() => {
     // 静态加载 assets
     // material.setAssets(assets as any)
     // setHasPluginInited(true);
-    plugins.init().then(() => {
-      // setHasPluginInited(true);
-    }).catch(err => console.error(err));
+    // plugins.init().then(() => {
+    //   // setHasPluginInited(true);
+    // }).catch(err => console.error(err));
   };
 
   const registPlugins = async () => {
-    await registerPlugins();
+    // await registerPlugins();
 
-    plugins.init().then(() => {
-      setHasPluginInited(true);
-      console.log(`plugins:`,plugins.getAll());
-    }).catch(err => console.error(err));
+    // plugins.init().then(() => {
+    //   setHasPluginInited(true);
+    //   // console.log(`plugins:`,plugins.getAll());
+    // }).catch(err => console.error(err));
   };
 
 
   return (
-    <div className='app-designer' id='app-designer'>
-      {hasPluginInited && <Workbench />}
+    <div className={styles['app-designer']} id='app-designer'>
+      {/* {hasPluginInited && <Workbench />} */}
+      {/* <Workbench /> */}
+      {/* <p>设计器 {aa}</p> */}
     </div>
   );
 });

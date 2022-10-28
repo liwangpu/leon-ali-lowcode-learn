@@ -57,6 +57,7 @@ export class LowCodePluginManager implements ILowCodePluginManager {
     options?: any,
     registerOptions?: ILowCodeRegisterOptions,
   ): Promise<void> {
+    console.log(`regist:`,);
     // registerOptions maybe in the second place
     if (isLowCodeRegisterOptions(options)) {
       registerOptions = options;
@@ -135,6 +136,7 @@ export class LowCodePluginManager implements ILowCodePluginManager {
   }
 
   async init(pluginPreference?: PluginPreference) {
+    console.log(`init work:`,);
     const pluginNames: string[] = [];
     const pluginObj: { [name: string]: ILowCodePlugin } = {};
     this.pluginPreference = pluginPreference;

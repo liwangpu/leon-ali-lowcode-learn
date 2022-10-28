@@ -52,5 +52,29 @@ async function disableNoCheckToLibs(cb) {
   cb();
 }
 
+async function projectInit(cb) {
+  //   const files = fg.sync(["./libs/**/tsconfig.json", "./libs/**/jest.config.js","./libs/**/build.test.json","./libs/**/build.json"]);
+  //   console.log(`files:`,files);
+  // const dirs = await readdir('./libs', { withFileTypes: true });
+  // for (let dir of dirs) {
+  //   let p = `./libs/${dir}`;
+  //   // const subPck = JSON.parse(fs.readFileSync(p, { encoding: 'utf-8' }));
+  //   // copy(subPck, 'dependencies');
+  //   // copy(subPck, 'devDependencies');
+  //   const files = fs.readdirSync(p);
+  //   console.log(`files:`, files);
+  // }
+
+  const dirs = fs.readdirSync('./libs');
+  for (let dir of dirs) {
+    let p = `./libs/${dir}`;
+    const files = fs.readdirSync(p).filter(x=>x.includes('.'));
+    console.log(`files:`, files);
+  }
+  // // console.log(`dirs:`, dirs);
+  cb();
+}
+
 exports.disableNoCheckToLibs = series(disableNoCheckToLibs);
 exports.copyDeps = series(copyDeps);
+exports.projectInit = series(projectInit);

@@ -8,6 +8,7 @@ import {
 } from '@alilc/lowcode-editor-skeleton';
 
 export default function getSkeletonCabin(skeleton: InnerSkeleton) {
+  console.log(`1:`,);
   return {
     createSettingFieldView,
     PopupContext,

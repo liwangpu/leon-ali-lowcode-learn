@@ -1,26 +1,22 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "lib": ["es2015", "dom"],
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strict": false,
-    "strictPropertyInitialization": false,
-    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
     "esModuleInterop": true,
-    "jsx": "react",
-    "jsxFactory": "createElement",
-    "importHelpers": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "outDir": "lib"
+    "strict": false,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true
   },
-  "exclude": ["test", "lib", "es", "node_modules"],
-  "include": [
-    "src"
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    }
   ]
 }

@@ -25,7 +25,7 @@
           "apps/demo/src/styles.less"
         ],
         "scripts": [],
-        "webpackConfig": "@nrwl/react/plugins/webpack"
+        "webpackConfig":"apps/demo/custom-webpack.config.js"
       },
       "configurations": {
         "development": {
@@ -55,7 +55,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "demo:build",
-        "hmr": true
+        "hmr": true,
+        "webpackConfig":"apps/demo/custom-webpack.config.js"
       },
       "configurations": {
         "development": {
