@@ -39,48 +39,7 @@
     "resolveJsonModule": true,
     // skip type checking of declaration files
     "skipLibCheck": true,
-    "outDir": "lib",
-    "paths": {
-      "@alilc/lowcode-designer": [
-        "../lowcode-engine/packages/designer/src"
-      ],
-      "@alilc/lowcode-editor-core": [
-        "../lowcode-engine/packages/editor-core/src"
-      ],
-      "@alilc/lowcode-editor-skeleton": [
-        "../lowcode-engine/packages/editor-skeleton/src"
-      ],
-      "@alilc/lowcode-engine": [
-        "../lowcode-engine/packages/engine/src"
-      ],
-      "@alilc/lowcode-ignitor": [
-        "../lowcode-engine/packages/ignitor/src"
-      ],
-      "@alilc/lowcode-plugin-designer": [
-        "../lowcode-engine/packages/plugin-designer/src"
-      ],
-      "@alilc/lowcode-plugin-outline-pane": [
-        "../lowcode-engine/packages/plugin-outline-pane/src"
-      ],
-      "@alilc/lowcode-rax-renderer": [
-        "../lowcode-engine/packages/rax-renderer/src"
-      ],
-      "@alilc/lowcode-rax-simulator-renderer": [
-        "../lowcode-engine/packages/rax-simulator-renderer/src"
-      ],
-      "@alilc/lowcode-renderer-core": [
-        "../lowcode-engine/packages/renderer-core/src"
-      ],
-      "@alilc/lowcode-shell": [
-        "../lowcode-engine/packages/shell/src"
-      ],
-      "@alilc/lowcode-types": [
-        "../lowcode-engine/packages/types/src"
-      ],
-      "@alilc/lowcode-utils": [
-        "../lowcode-engine/packages/utils/src"
-      ]
-    }
+    "outDir": "lib"
   },
   "include": [
     "./src/"

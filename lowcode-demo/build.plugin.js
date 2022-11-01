@@ -10,7 +10,7 @@ module.exports = ({ onGetWebpackConfig }) => {
   onGetWebpackConfig((config) => {
     config.resolve.plugin('tsconfigpaths').use(TsconfigPathsPlugin, [
       {
-        configFile: './tsconfig.json',
+        configFile: './tsconfig.prod.json',
       },
     ]);
 

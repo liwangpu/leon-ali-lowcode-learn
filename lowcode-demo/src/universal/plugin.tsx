@@ -35,6 +35,15 @@ import assets from './assets.json'
 import { registerRefProp } from 'src/sample-plugins/set-ref-prop';
 
 export default async function registerPlugins() {
+  const customPluginRegistry = (ctx: ILowCodePluginContext) => {
+    return {
+      name: 'custom-plugin',
+      async init() {
+        console.log(`custom plugin init`,);
+      }
+    };
+  };
+  await plugins.register(customPluginRegistry);
   await plugins.register(ManualPlugin);
 
   await plugins.register(Inject);
