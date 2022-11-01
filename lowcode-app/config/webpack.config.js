@@ -748,6 +748,9 @@ module.exports = function (webpackEnv) {
         },
       }),
     ].filter(Boolean),
+    // Turn off performance processing because we utilize
+    // our own hints via the FileSizeReporter
+    performance: false,
     externals: {
       "react": "var window.React",
       "react-dom": "var window.ReactDOM",
@@ -761,9 +764,6 @@ module.exports = function (webpackEnv) {
       "@ali/lowcode-engine": "var window.AliLowCodeEngine",
       "moment": "var window.moment",
       "lodash": "var window._"
-    },
-    // Turn off performance processing because we utilize
-    // our own hints via the FileSizeReporter
-    performance: false,
+    }
   };
 };

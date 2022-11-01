@@ -46,7 +46,7 @@ const Designer: React.FC = memo(() => {
 
     plugins.init().then(() => {
       setHasPluginInited(true);
-      console.log(`plugins:`,plugins.getAll());
+      // console.log(`plugins:`,plugins.getAll());
     }).catch(err => console.error(err));
   };
 
