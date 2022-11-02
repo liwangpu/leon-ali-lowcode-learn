@@ -19,6 +19,9 @@ import '../../universal/global.scss';
       plugins.init().then(() => {
         setHasPluginInited(true);
       }).catch(err => console.error(err));
+      // setTimeout(() => {
+      //   setHasPluginInited(true);
+      // }, 1500);
     }, []);
 
     return hasPluginInited && <Workbench />;
